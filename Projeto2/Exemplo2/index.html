@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="utf8">
+        <link rel="stylesheet"  href="front/css/bootstrap.css">
+    </head>   
+    <body>
+        <form method="POST" action="CalculadoraRecebe.php">
+
+            <table  align="center">
+                <h1 align="center">CALCULADORA</h1>
+                <tr>
+                    <td>Numero 1: </td>
+                    <td> <input type="text" name="numero1" size="4"></td>
+                </tr>
+                <tr>
+                    <td>Numero 2: </td>
+                    <td> <input type="text" name="numero2" size="4"></td>
+                </tr>
+                <br><br>
+            </table>
+            <br><br>
+            <center>
+                <button type="submit" class="btn btn-primary" name="acao" value="somar">Somar</button>
+                <button type="submit" class="btn btn-danger" name="acao" value="subtrair">Subtrair</button>
+                <button type="submit" class="btn btn-primary" name="acao" value="multiplicar">Multiplicar</button>
+                <button type="submit" class="btn btn-danger" name="acao" value="dividir">Dividir</button>
+            </center>
+    </body>  
+</html>

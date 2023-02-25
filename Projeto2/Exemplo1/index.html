@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo PHP</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="pagina2.php" method="GET">
+	   <h1>Formulário</h1>
+	   
+	   <label>Nome:</label>
+	   <input type="text" name="nome"><br><br>
+	   
+	   <label>E-mail:</label>
+	   <input type="text" name="email"><br><br>
+	   
+	   <label>Idade:</label>
+	   <input type="text" name="idade"><br><br>
+	   
+	   <label>Sexo:</label>
+	   <input type="radio" name="sexo" value="masc"> masc
+	   <input type="radio" name="sexo" value="fem"> fem 	 <br><br>
+	    
+	   <label> Origem:</label>
+	   <select name="pais">
+			<option value="Brasil">Brasil</option>
+			<option value="Estados Unidos">Estados Unidos</option>
+			<option value="Japão">Japão</option>
+			<option value="Índia">Índia</option>
+			<option value="Angola">Angola</option>
+			<option value="Marrocos">Marrocos</option>
+			<option value="México">México</option>
+	  </select>
+	  <br><br>
+	  Escolha uma opção:<br>
+	  <input type="checkbox" name="linguagem[]" value="html">Html<br>
+	  <input type="checkbox" name="linguagem[]" value="Css"> Css<br>
+	  <input type="checkbox" name="linguagem[]" value="jQuery" checked>jQuery</label><br><br>
+	
+	  <input type="submit" value="Enviar">
+	</form>
+</body>
+</html>

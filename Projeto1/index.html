@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulário</title>
+ <meta charset="UTF-8" />
+</head>
+
+<body>
+	<h1>Formulários</h1>
+<form method="GET" action="processa.php" width="50%">
+      Nome:
+      <input type="text" size="10" maxlenght="40" name="nome" />
+      <br />
+      Senha:
+      <input type="text" size="10" maxlenght="10" name="senha" />
+
+      <br /><br />
+
+      <label>Sexo:</label>
+
+      <input type="radio" name="sexo" value="Masculino" />
+      Masculino
+
+      <input type="radio" name="sexo" value="Feminino" />
+      Feminino<br />
+
+      <label>Liguagem Favorita: </label>
+      <input type="checkbox" name="leng" value="php" />
+      PHP
+      <input type="checkbox" name="leng" value="java" />
+      Java<br>
+
+      <label>Arquivo: <input type="file" name="arq"></label>
+
+      <br /><input type="submit" value="Enviar" />
+</form>
+</body>
+
+</html>

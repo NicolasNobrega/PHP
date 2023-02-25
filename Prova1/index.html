@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Filmes</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <form method="GET" action="Filme.php" width="50%">
+      <center>
+        <h1>Cadastro</h1>
+        Nome:
+        <input type="text" size="10" maxlenght="40" name="nome" />
+        <br />
+        Idade:
+        <input type="number" size="10" maxlenght="10" name="idade" />
+
+        <br /><br />
+
+        <label>Sexo:</label>
+
+        <input type="radio" name="sexo" value="Masculino" />
+        Masculino
+
+        <input type="radio" name="sexo" value="Feminino" />
+        Feminino<br />
+
+        <label>Tipo de Filme </label>
+        <input type="checkbox" name="tfilme" value="comedia" />
+        comedia
+        <input type="checkbox" name="tfilme" value="romance" />
+        romance<br />
+        <input type="checkbox" name="tfilme" value="terror" />
+        terror
+        <input type="checkbox" name="tfilme" value="aventura" />
+        Aventura<br />
+        <input type="checkbox" name="tfilme" value="ação" />
+        Ação
+        <input type="checkbox" name="tfilme" value="ficção" />
+        Ficção<br />
+
+        <br /><input type="submit" value="Enviar" />
+      </center>
+    </form>
+  </body>
+</html>

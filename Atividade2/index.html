@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+     <link  href="css/bootstrap.css" rel="stylesheet" >
+    <title>Eleições 2022 </title>
+</head>
+	<body>
+		<form method="POST" action="eleicao.php">
+		 <center>
+			<fieldset>
+				<legend>Eleição</legend>
+				<h3>Insira os Dados a Baixo</h3>
+				Nome:<input type="text" name="name"><br><br>
+				Titúlo:<input type="number" name="title"><br><br>
+				Idade:<input type="number" name="age"><br><br>
+				É Alfabetizado?<br>
+				  	<input type="radio" name="literate" value="yes">
+  					<label for="html">Sim</label>
+  					<input type="radio" name="literate" value="no">
+  					<label for="css">Não</label><br><br>
+				<button type="submit" class="btn btn-primary" name="result">Calcular</button>
+				<button type="reset" class="btn btn-secondary">Limpar</button>
+			</fieldset>
+		 </center>
+		</form>
+	</body>
+</html>
